@@ -1,0 +1,289 @@
+.container {
+  display: flex;
+  background-color: #cb116e;
+  height: 691px;
+}
+
+.box-1{
+  flex:1;
+  margin-top: 65px;
+  margin-left: 70px;
+}
+
+.box-2{
+  flex:1;
+  margin-top: 48px;
+}
+
+.Fitness-como-la-gent {
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 87px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.98;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 334px;
+  height: 70px;
+  border-radius: 8px;
+  background-color: #ffd900;
+  margin-top: 30px;
+}
+
+.ASOCIATE-YA {
+  display: contents;
+  width: 312px;
+  height: 57px;
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ec0b70;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Oval {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50%;
+  width: 252px;
+  height: 252px;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.12);
+  border: solid 14px #ffffff;
+  background-color: #6b237b;
+  margin-left: 22%;
+  margin-top: 2%;
+}
+
+.Oval-text-container{
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffd900;
+  margin-bottom: 20px;
+}
+
+.desde {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffd900;
+}
+
+.moneda {
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 48px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffd900;
+}
+
+.precio  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffd900;
+}
+
+.asterisco {
+  display: none;
+}
+
+
+.PAG-MES-A-MES {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 29px;
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffd900;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 3px;
+
+}
+
+.Z_LOW_TOKIO_fiter_10312_Final {
+  object-fit: contain;
+}
+
+.chico_pesas_solo {
+  object-fit: contain;
+}
+
+@media (max-width:480px)  { /* smartphones, Android phones, landscape iPhone */
+  .container {
+    height: 567px;
+    background-color: #cb116e;
+  }
+
+  .ASOCIATE-YA {
+    display: contents;
+    width: 254px;
+    height: 42px;
+    font-family: TeXGyreHeros, sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ec0b70;
+  }
+
+  .box-1{
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+
+  .box-2{
+    position: absolute;
+    margin-top: 248px;
+  }
+
+  .chico_pesas_solo {
+    display: none;
+  }
+
+  .Z_LOW_TOKIO_fiter_10312_Final{
+    width: 195px;
+    height: 317px;
+    object-fit: contain;
+  }
+
+  .Fitness-como-la-gent {
+    width: 277px;
+    height: 164px;
+    font-family: TeXGyreHeros, sans-serif;
+    font-size: 37px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .Oval {
+    width: 178px;
+    height: 178px;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.12);
+    border: solid 10px #ffffff;
+    background-color: #6b237b;
+    margin-left: 28%;
+    margin-top: 45%;
+    z-index: 1;
+  }
+
+  .Rectangle {
+    position: absolute;
+    width: 272px;
+    height: 57px;
+    border-radius: 8px;
+    background-color: #ffd900;
+    margin-top: 310px;
+    z-index: 1;
+  }
+
+
+  .desde {
+    font-family: TeXGyreHeros, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--sunflower-yellow);
+  }
+
+  .asterisco {
+    display: inline-flex;
+    width: 18px;
+    height: 65px;
+    font-family: TeXGyreHeros, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--sunflower-yellow);
+  }
+
+  .precio {
+    width: 101px;
+    font-family: TeXGyreHeros, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--sunflower-yellow);
+  }
+
+  .PAG-MES-A-MES {
+    height: 22px;
+    font-family: TeXGyreHeros, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--sunflower-yellow);
+  }
+
+
+
+}
+
+
+

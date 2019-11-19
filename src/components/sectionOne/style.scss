@@ -1,0 +1,77 @@
+.Seccion1-container {
+  display: flex;
+  background-color: #FFFFFF;
+  height: 250px;
+}
+
+.align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row1 {
+  display: flex;
+  flex-direction: column;
+  flex:1.5;
+  align-items: center;
+}
+
+.row2 {
+  flex:1;
+  align-items: center;
+  justify-content: center;
+}
+.row3 {
+  flex:1;
+  align-items: center;
+  justify-content: center;
+}
+.row4 {
+  flex:1;
+  align-items: center;
+  justify-content: center;
+}
+.row5 {
+  flex:1;
+  align-items: center;
+  justify-content: center;
+}
+
+.Por-qu-fiter {
+  height: 50px;
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #00b6cd;
+  margin-top: 10px;
+}
+
+.Por-qu-fiter .text-style-1 {
+  color: #00b6cd;
+}
+
+.Rectangle2 {
+  width: 289px;
+  height: 48px;
+  border-radius: 3px;
+  background-color: #ffda03;
+}
+
+.CONOCENOS {
+  width: 225px;
+  height: 26px;
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ec0b70;
+}
+
