@@ -46,6 +46,8 @@ export default Navbar
 const NavBar = styled(animated.nav)`
   position: relative;
   width: 100%;
+  top: 0;
+  left: 0;
   background: #10c3d9;
   z-index: 1;
   font-size: 1.4rem;
@@ -84,7 +86,6 @@ const NavLinks = styled(animated.ul)`
 
 const BurgerWrapper = styled.div`
   margin: auto 0;
-
   @media (min-width: 769px) {
     display: none;
   }
