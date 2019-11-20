@@ -1,8 +1,8 @@
 import React from 'react';
-import GlobalStyle from './styles/Global';
+import GlobalStyle from './style.js';
 import Navbar from "./components/navbar/Navbar";
-import Principal from "./components/principal/principal";
-import SectionOne from "./components/sectionOne/sectionOne";
+import Principal from "./sections/principal/principal";
+import SectionOne from "./sections/sectionOne/sectionOne";
 
 class App extends React.Component {
 

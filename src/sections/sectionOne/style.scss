@@ -4,38 +4,80 @@
   height: 250px;
 }
 
-.align {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .row1 {
   display: flex;
   flex-direction: column;
   flex:1.5;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .row2 {
+  display: flex;
   flex:1;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .row3 {
+  display: flex;
   flex:1;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .row4 {
+  display: flex;
   flex:1;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .row5 {
+  display: flex;
   flex:1;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
+.row-style {
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: center;
+  color: #00b6cd;
+}
+
+.row-style .text-style-1 {
+  font-weight: bold;
+  color: #ffd900;
+}
+
+.Oval-icon {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 89px;
+  height: 89px;
+  border: solid 3px #00b6cd;
+  margin-bottom: 25px;
+}
+
+.text-inline {
+  font-weight: bold;
+  color: #ffd900;
+  display: inline
+}
+
 
 .Por-qu-fiter {
   height: 50px;
@@ -55,6 +97,9 @@
 }
 
 .Rectangle2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 289px;
   height: 48px;
   border-radius: 3px;
@@ -62,6 +107,9 @@
 }
 
 .CONOCENOS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 225px;
   height: 26px;
   font-family: TeXGyreHeros, sans-serif;
@@ -74,4 +122,5 @@
   text-align: center;
   color: #ec0b70;
 }
+
 

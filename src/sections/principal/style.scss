@@ -51,9 +51,9 @@
   text-align: center;
   color: #ec0b70;
 }
+
 .row {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
@@ -69,7 +69,7 @@
   box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.12);
   border: solid 14px #ffffff;
   background-color: #6b237b;
-  margin-left: 22%;
+  margin-left: 25%;
   margin-top: 2%;
 }
 
@@ -156,6 +156,253 @@
   object-fit: contain;
 }
 
+@media (max-width: 1200px){
+  .Fitness-como-la-gent {
+    font-family: TeXGyreHeros, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.98;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .chico_pesas_solo {
+    display: none;
+  }
+
+  .Z_LOW_TOKIO_fiter_10312_Final{
+    height: 600px;
+    object-fit: contain;
+  }
+
+  .Oval {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    width: 252px;
+    height: 252px;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.12);
+    border: solid 14px #ffffff;
+    background-color: #6b237b;
+    margin-left: 15%;
+    margin-top: 11%;
+  }
+
+  .Rectangle {
+    position: absolute;
+    width: 272px;
+    height: 57px;
+    border-radius: 8px;
+    background-color: #ffd900;
+    margin-top: 325px;
+    z-index: 1;
+  }
+
+  .ASOCIATE-YA {
+    display: contents;
+    width: 254px;
+    height: 42px;
+    font-family: TeXGyreHeros, sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ec0b70;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1600px){
+  .Oval {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    width: 252px;
+    height: 252px;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.12);
+    border: solid 14px #ffffff;
+    background-color: #6b237b;
+    margin-left: 30%;
+    margin-top: 10%;
+  }
+
+  .box-2{
+    flex:1;
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+
+  .chico_pesas_solo {
+    display: none;
+  }
+
+  .Fitness-como-la-gent {
+    width: 277px;
+    height: 164px;
+    font-family: TeXGyreHeros, sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .Rectangle {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 334px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: #ffd900;
+    margin-top: 300px;
+  }
+
+  .ASOCIATE-YA {
+    display: contents;
+    width: 312px;
+    height: 57px;
+    font-family: TeXGyreHeros, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ec0b70;
+  }
+
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .Oval {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    width: 252px;
+    height: 252px;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.12);
+    border: solid 14px #ffffff;
+    background-color: #6b237b;
+    margin-left: 100px;
+    margin-top: 160px;
+  }
+
+  .Rectangle {
+    position: absolute;
+    width: 272px;
+    height: 57px;
+    border-radius: 8px;
+    background-color: #ffd900;
+    margin-top: 340px;
+    z-index: 1;
+  }
+}
+
+@media (min-width:480px) and (max-width:768px) {
+  .Oval {
+    width: 178px;
+    height: 178px;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.12);
+    border: solid 10px #ffffff;
+    background-color: #6b237b;
+    margin-left: 5%;
+    margin-top: 120px;
+    z-index: 1;
+  }
+
+  .Rectangle {
+    position: absolute;
+    width: 272px;
+    height: 57px;
+    border-radius: 8px;
+    background-color: #ffd900;
+    margin-top: 270px;
+    z-index: 1;
+  }
+
+  .desde {
+    font-family: TeXGyreHeros, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--sunflower-yellow);
+  }
+
+  .asterisco {
+    display: inline-flex;
+    width: 18px;
+    height: 65px;
+    font-family: TeXGyreHeros, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--sunflower-yellow);
+  }
+
+  .precio {
+    width: 101px;
+    font-family: TeXGyreHeros, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--sunflower-yellow);
+  }
+
+  .PAG-MES-A-MES {
+    height: 22px;
+    font-family: TeXGyreHeros, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--sunflower-yellow);
+  }
+
+  .box-2{
+    flex:1;
+    margin-left: 5%;
+    margin-top: 40%;
+  }
+
+  .Z_LOW_TOKIO_fiter_10312_Final{
+
+  }
+
+
+
+}
+
 @media (max-width:480px)  {
   .container {
     height: 567px;
@@ -187,10 +434,6 @@
     margin-top: 248px;
   }
 
-  .chico_pesas_solo {
-    display: none;
-  }
-
   .Z_LOW_TOKIO_fiter_10312_Final{
     width: 195px;
     height: 317px;
@@ -216,8 +459,8 @@
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.12);
     border: solid 10px #ffffff;
     background-color: #6b237b;
-    margin-left: 28%;
-    margin-top: 45%;
+    margin-left: 110px;
+    margin-top: 40%;
     z-index: 1;
   }
 
@@ -227,7 +470,7 @@
     height: 57px;
     border-radius: 8px;
     background-color: #ffd900;
-    margin-top: 310px;
+    margin-top: 328px;
     z-index: 1;
   }
 
@@ -281,6 +524,9 @@
     color: var(--sunflower-yellow);
   }
 
+  .chico_pesas_solo {
+    display: none;
+  }
 
 
 }
