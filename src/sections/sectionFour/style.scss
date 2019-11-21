@@ -1,0 +1,188 @@
+.Seccion4-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 903px;
+  background-color: #7d2a8f;
+}
+
+.plan-club-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 323px;
+  height: 670px;
+  border-radius: 10px;
+  background-color: #10c3d9;
+  margin-right: 20px;
+}
+
+.plan-red-container {
+  width: 323px;
+  height: 670px;
+  border-radius: 10px;
+  background-color: #8b419b;
+}
+
+.columns-container{
+  display: flex;
+}
+
+.row-s4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.precio-container-s4{
+  display: flex;
+}
+
+.Empez-a-Fitear {
+  width: 561px;
+  height: 68px;
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Es-simple-Ven-todo {
+  width: 646px;
+  height: 40px;
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.PLAN-CLUB {
+  width: 323px;
+  height: 54px;
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffda03;
+}
+
+.moneda-s4 {
+  align-self: flex-end;
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 48px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+
+}
+
+.precio-s4 {
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.asterisco-s4 {
+  display: inline-flex;
+  height: 65px;
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.PAG-MES-A-MES-s4 {
+  width: 257px;
+  height: 23px;
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.ACCED-AL-CLUB-QUE-P {
+  width: 254px;
+  height: 52px;
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffda03;
+}
+
+.text-Sector {
+  width: 216px;
+  height: 240px;
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.asociate-container-s4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 241px;
+  height: 51px;
+  border-radius: 8px;
+  background-color: #ffda03;
+}
+
+.asociate-s4{
+  width: 233px;
+  height: 38px;
+  font-family: TeXGyreHeros, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ec0b70;
+}

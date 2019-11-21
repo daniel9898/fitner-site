@@ -32,13 +32,13 @@ class SectionOne extends React.Component {
                     <div className={'Oval-icon'}>
                         <Icon style={{ fontSize: 40 }}>directions_bike</Icon>
                     </div>
-                    <p>El mejor equipamiento <p className={'text-style-1'}>+ Cantidad + Calidad</p></p>
+                    <div>El mejor equipamiento <p className={'text-style-1'}>+ Cantidad + Calidad</p></div>
                 </div>
                 <div className={'row3 row-style'}>
                     <div className={'Oval-icon'}>
                         <Icon style={{ fontSize: 40 }}>favorite_border</Icon>
                     </div>
-                    <p><p className={'text-style-1'}>Muchas clases</p> con onda</p>
+                    <div><p className={'text-style-1'}>Muchas clases</p> con onda</div>
                 </div>
                 <div className={'row4 row-style'}>
                     <div className={'Oval-icon'}>
@@ -50,7 +50,7 @@ class SectionOne extends React.Component {
                     <div className={'Oval-icon'}>
                         <Icon style={{ fontSize: 40 }}>thumb_up_alt</Icon>
                     </div>
-                    <p>Más cerca de vos<p>y de tu <div className={'text-inline'}>presupuesto</div></p></p>
+                    <p>Más cerca de vos</p><div>y de tu <div className={'text-inline'}>presupuesto</div></div>
                 </div>
             </div>
         )
