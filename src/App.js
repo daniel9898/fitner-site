@@ -7,6 +7,7 @@ import SectionTwo from "./sections/sectionTwo/sectionTwo";
 import SectionThree from "./sections/sectionThree/sectionThree";
 import SectionFour from "./sections/sectionFour/sectionFour";
 import Map from "./sections/map/map";
+import BranchOffices from "./sections/branchOffices/branchOffices";
 
 class App extends React.Component {
 
@@ -20,6 +21,7 @@ class App extends React.Component {
             <SectionThree />
             <SectionFour />
             <Map />
+            <BranchOffices />
             <GlobalStyle />
         </>
     )
