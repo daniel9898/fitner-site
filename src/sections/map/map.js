@@ -2,6 +2,7 @@ import React from 'react';
 import './style.scss';
 import styled from "styled-components";
 import image from "../../assets/map.png";
+import { inject, observer } from "mobx-react";
 
 const Image = styled.img`
     height: 536px;
@@ -9,7 +10,14 @@ const Image = styled.img`
     object-fit: cover;
 `;
 
+@inject("officeStore")
+@observer
 class Map extends React.Component {
+
+    handleChange = e => {
+        this.props.officeStore.filterOffice(this.officeInput.value);
+    };
+
     render() {
         return (
             <>
@@ -18,12 +26,13 @@ class Map extends React.Component {
                         Buscá tu sede <br/>
                         más cercana
                     </div>
-                    <div>
                         <input
+                            ref={input => this.officeInput= input}
+                            onChange={this.handleChange}
                             className={'Rectangle-15'}
                             placeholder={'Buscar'}
-                            type="text"/>
-                    </div>
+                            type="text"
+                        />
                     <p className={'Ver-todas-las-sedes'}>Ver todas las sedes</p>
                 </div>
                 <Image src={image} alt="Mapa" />

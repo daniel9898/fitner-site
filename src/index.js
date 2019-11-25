@@ -6,8 +6,16 @@ import './fonts/texgyreheros-bold-webfont.woff';
 import './fonts/texgyreheros-bolditalic-webfont.woff';
 import './fonts/texgyreheros-italic-webfont.woff';
 import './fonts/texgyreheros-regular-webfont.woff';
+import { Provider } from 'mobx-react';
+import officeStore from './stores/branchOfficesStore';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const Root = (
+    <Provider officeStore={officeStore}>
+        <App />
+    </Provider>
+)
+
+ReactDOM.render(Root , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

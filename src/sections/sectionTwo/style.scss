@@ -1,43 +1,24 @@
 .Seccion2-container {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   background-color: #f2f2f2;
-  height: 250px;
-  padding-left: 108px;
+  padding: 35px;
 }
 
 .title-container-s2{
   display: flex;
-  margin-top: 40px;
-  padding-right: 108px;
 }
 
 .row-container-s2{
   display: flex;
   margin-top: 20px;
-}
-
-.row1-s2 {
-  flex:1;
-}
-
-.row2-s2 {
-  flex:1;
-}
-
-.row3-s2 {
-  flex:1;
-}
-
-.row4-s2 {
-  flex:1;
-}
-
-.row5-s2 {
-  flex:1;
+  justify-content: space-between;
 }
 
 .Rectangle-5-Copy-5 {
+
   width: 253px;
   height: 108px;
   border-radius: 4px;
@@ -45,6 +26,7 @@
 }
 
 .Rectangle-5-Copy-6 {
+
   width: 253px;
   height: 108px;
   border-radius: 4px;
@@ -52,6 +34,7 @@
 }
 
 .Rectangle-5-Copy-7 {
+
   width: 253px;
   height: 108px;
   border-radius: 4px;
@@ -59,6 +42,7 @@
 }
 
 .Rectangle-5-Copy-8 {
+
   width: 253px;
   height: 108px;
   border-radius: 4px;
@@ -66,6 +50,7 @@
 }
 
 .Rectangle-5-Copy-9 {
+
   width: 253px;
   height: 108px;
   border-radius: 4px;
@@ -91,7 +76,7 @@
 
 .Conoc-nuestras-clas {
   flex: 2;
-  height: 32px;
+  display: flex;
   font-family: TeXGyreHeros, sans-serif;
   font-size: 40px;
   font-weight: bold;
@@ -103,7 +88,6 @@
 }
 
 .Ver-todas-las-clases {
-  height: 29px;
   font-family: TeXGyreHeros, sans-serif;
   font-size: 20px;
   font-weight: bold;
@@ -129,4 +113,20 @@
   margin-top: 30px;
   color: #8f8f8f;
   border-radius: 50%;
+}
+
+@media (max-width:480px) {
+  .Conoc-nuestras-clas {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    font-family: TeXGyreHeros, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    color: #00b6cd;
+  }
 }
