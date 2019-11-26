@@ -21,11 +21,12 @@ class Map extends React.Component {
     render() {
         return (
             <>
-                <div className={'Rectangle-10'}>
-                    <div className={'Busc-tu-sede-ms-ce'}>
-                        Buscá tu sede <br/>
-                        más cercana
-                    </div>
+                <div className={'container'}>
+                    <div className={'input-offices-container'}>
+                        <div className={'Busc-tu-sede-ms-ce'}>
+                            Buscá tu sede <br/>
+                            más cercana
+                        </div>
                         <input
                             ref={input => this.officeInput= input}
                             onChange={this.handleChange}
@@ -33,7 +34,8 @@ class Map extends React.Component {
                             placeholder={'Buscar'}
                             type="text"
                         />
-                    <p className={'Ver-todas-las-sedes'}>Ver todas las sedes</p>
+                        <p className={'Ver-todas-las-sedes'}>Ver todas las sedes</p>
+                    </div>
                 </div>
                 <Image src={image} alt="Mapa" />
             </>

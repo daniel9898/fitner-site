@@ -1,4 +1,4 @@
-.Rectangle-10 {
+.input-offices-container {
   position: absolute;
   flex-direction: column;
   justify-content: space-evenly;
@@ -40,4 +40,10 @@
   line-height: normal;
   letter-spacing: normal;
   color: #ed2780;
+}
+
+@media (max-width:480px){
+  .input-offices-container{
+    display: none;
+  }
 }

@@ -13,7 +13,7 @@ const offices = [
      @observable officesAux = offices;
 
      @action filterOffice = office => {
-        if(office && office != ''){
+        if(office && office !== ''){
             office = office.toLowerCase();
             office = office.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
             this.officesAux = offices.filter(off => off.name.includes(office));

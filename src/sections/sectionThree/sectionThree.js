@@ -9,13 +9,15 @@ const Image = styled.img`
     height:100%;
 `;
 
+//la imagen debe ir como backg y ponerele cover
+
 class SectionThree extends React.Component {
     render() {
         return (
-            <>
+            <div className={'section3-container'}>
                 <div className={'Rectangle-8'}>
                     <div className={'Conoc-Fiter-por-den'}>
-                        <Icon style={{ fontSize: 40, color: '#ffffff' }}>keyboard_arrow_right</Icon> Conocé Fiter por dentro
+                        <Icon style={{ fontSize: 40, color: '#ffffff'}}>keyboard_arrow_right</Icon> Conocé Fiter por dentro
                     </div>
                     <p className={'Salas-de-Musculacin '}>Salas de Musculación</p>
                     <p className={'Equipado-con-la-mayo'}>
@@ -23,7 +25,7 @@ class SectionThree extends React.Component {
                     </p>
                 </div>
                 <Image src={img} className={'Bitmap'} alt="" />
-            </>
+            </div>
         )
     }
 }

@@ -15,6 +15,7 @@ const GlobalStyles = createGlobalStyle`
   *::before {
     margin: 0px;
     padding: 0px;
+    
   }
 
   html {
@@ -24,6 +25,11 @@ const GlobalStyles = createGlobalStyle`
   body {
     box-sizing: border-box;
     font-family: 'texgyreheros', sans-serif;
+  }
+  
+  .container{
+    margin: auto;
+    width: 1600px;
   }
 `;
 

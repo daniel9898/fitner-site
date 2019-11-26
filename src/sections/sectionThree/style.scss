@@ -1,5 +1,10 @@
 .Bitmap {
-  object-fit: contain;
+  height: 95vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -1;
 }
 
 .Rectangle-8 {
@@ -18,7 +23,7 @@
 }
 
 .Conoc-Fiter-por-den {
-  flex: 0.5;
+  flex: 1;
   display: flex;
   align-items: center;
   height: 32px;
@@ -31,6 +36,7 @@
   letter-spacing: normal;
   color: #ffffff;
   padding-right: 105px;
+  padding-top: 20px;
 }
 
 .Salas-de-Musculacin {
@@ -59,8 +65,85 @@
   line-height: normal;
   letter-spacing: normal;
   color: #ffffff;
+  padding-top: 20px;
 }
 
 .icon-arrow {
   color: #8f8f8f;
+}
+
+@media (max-width:480px) {
+  .section3-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .Bitmap {
+    object-fit: cover;
+
+    height: 411px;
+  }
+
+  .Rectangle-8 {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0.95;
+    border-radius: 10px;
+    background-color: #10c3d9;
+    width: auto;
+    height: 388px;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 25px;
+  }
+
+  .Conoc-Fiter-por-den {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    font-family: TeXGyreHeros, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+  .Salas-de-Musculacin {
+    flex: 0.5;
+    font-family: TeXGyreHeros, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #ffffff;
+    width: auto;
+    height: auto;
+  }
+
+  .Equipado-con-la-mayo {
+    flex: 2;
+    font-family: TeXGyreHeros, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-top: 0;
+    width: 255px;
+    height: 0;
+  }
+
 }

@@ -1,18 +1,18 @@
-.container {
+.principal-container {
   display: flex;
   background-color: #cb116e;
-  height: 691px;
+  height: auto;
+  padding: 60px 40px 0 40px;
 }
 
 .box-1{
   flex:1;
-  margin-top: 65px;
-  margin-left: 70px;
+
 }
 
 .box-2{
   flex:1;
-  margin-top: 90px;
+  top: 90px;
 }
 
 .Fitness-como-la-gent {
@@ -177,21 +177,7 @@
     object-fit: contain;
   }
 
-  .Oval {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 50%;
-    width: 252px;
-    height: 252px;
-    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.12);
-    border: solid 14px #ffffff;
-    background-color: #6b237b;
-    margin-left: 15%;
-    margin-top: 11%;
-  }
+
 
   .Rectangle {
     position: absolute;
@@ -232,19 +218,16 @@
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.12);
     border: solid 14px #ffffff;
     background-color: #6b237b;
-    margin-left: 30%;
-    margin-top: 10%;
+
   }
 
   .box-2{
     flex:1;
-    margin-top: 10%;
-    margin-left: 10%;
+    top: 10%;
+    left: 10%;
   }
 
-  .chico_pesas_solo {
-    display: none;
-  }
+
 
   .Fitness-como-la-gent {
     width: 277px;
@@ -303,8 +286,8 @@
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.12);
     border: solid 14px #ffffff;
     background-color: #6b237b;
-    margin-left: 100px;
-    margin-top: 160px;
+    left: 100px;
+    top: 160px;
   }
 
   .Rectangle {
@@ -318,15 +301,15 @@
   }
 }
 
-@media (min-width:480px) and (max-width:768px) {
+@media (min-width:481px) and (max-width:768px) {
   .Oval {
     width: 178px;
     height: 178px;
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.12);
     border: solid 10px #ffffff;
     background-color: #6b237b;
-    margin-left: 5%;
-    margin-top: 120px;
+    left: 5%;
+    top: 120px;
     z-index: 1;
   }
 
@@ -395,18 +378,13 @@
     margin-top: 40%;
   }
 
-  .Z_LOW_TOKIO_fiter_10312_Final{
-
-  }
-
-
-
 }
 
 @media (max-width:480px)  {
-  .container {
+  .principal-container {
     height: 567px;
     background-color: #cb116e;
+    padding : 30px 30px 0px 30px;
   }
 
   .ASOCIATE-YA {
@@ -424,14 +402,10 @@
     color: #ec0b70;
   }
 
-  .box-1{
-    margin-top: 30px;
-    margin-left: 35px;
-  }
-
   .box-2{
     position: absolute;
-    margin-top: 248px;
+    top: 330px;
+    left: 0;
   }
 
   .Z_LOW_TOKIO_fiter_10312_Final{
@@ -460,7 +434,7 @@
     border: solid 10px #ffffff;
     background-color: #6b237b;
     margin-left: 110px;
-    margin-top: 40%;
+    margin-top: 52%;
     z-index: 1;
   }
 

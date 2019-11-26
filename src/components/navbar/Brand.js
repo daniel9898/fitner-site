@@ -13,5 +13,6 @@ export default Brand
 
 const Image = styled.img`
   height: 35px;
-  margin: auto 0;
+  margin: auto;
+  display: flex;
 `;
